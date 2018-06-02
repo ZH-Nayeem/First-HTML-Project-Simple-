@@ -1,0 +1,554 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto:300,400,500,700,900');
+body{
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+h1,h2,h3,h4,h5,h6,a,ul,li,button,p{
+	margin: 0;
+	padding: 0;
+}
+.bg-paralux{
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+h3{
+	font-family: 'Montserrat', sans-serif;
+	color: #000;
+	font-size: 40px;
+}
+
+p{
+	font-size: 16px;
+	color: #8b8e93;
+	/*line-height: 20px;*/
+	font-weight: 400;
+}
+#first,#third{
+	width:50px;
+	height: 3px;
+	background-color: #959595;
+	display: inline-block;
+}
+.section-title1 #third{
+	width: 85px;
+}
+.section-title1 #second{
+	margin: 0 -3px 0 0;
+}
+#second{
+	width:60px;
+	height: 3px;
+	background-color: #ff214f;
+	display: inline-block;
+	margin: 0 -4px;
+}
+h1{
+	font-size: 20px;
+	font-weight: 500;
+	color: #000;
+}
+.padd-cover{
+	padding:100px 0;
+}
+/*========================================================
+						  BUTTON(Generic)
+========================================================*/
+.butt a{
+	font-size: 15px;
+	font-weight: 500;
+	border-radius: 30px;
+	text-transform: uppercase;
+	padding: 20px 40px;
+	transition: 1s ease;
+}
+.btn-white{
+	background-color: #fff;
+	color: #000;
+}
+.btn-red{
+	background-color: #ff214f;
+	color: #fff;
+}
+.btn-white:hover{
+	background-color: #ff214f;
+	color: #fff;
+}
+.btn-red:hover{
+	background-color: #fff;
+	color: #000;
+}
+.btn-black{
+	background-color: #000;
+	color: #fff;
+}
+.btn-black:hover{
+	background-color: #ff214f;
+	color: #fff;
+}
+.mr{
+	margin: 0 15px;
+}
+.general-content-box p{
+	max-width: 495px;
+	margin: 25px auto 45px;
+	text-align:center;
+}
+/*========================================================
+				  	SOSIAL ICON  CSS
+========================================================*/
+ul.social-icon ul{
+	list-style: none;
+}
+ul.social-icon li{
+	display: inline-block;
+	border: 1px solid transparent;
+	border-radius: 50%;
+	width: 35px;
+	height: 35px;
+	margin: 25px  3px 0;
+}
+ul.social-icon li a{
+	text-decoration: none;
+	font-size: 17px;
+}
+ul.white-icon li a{
+	color: #fff;
+}
+ul.gray-icon li a{
+	color: #8b8e93;
+}
+ul.social-icon i{
+	margin-top: 7px;
+}
+ul.social-icon li:hover{
+	background-color: #ff214f;
+}
+ul.social-icon li:hover a{
+	color: #fff;
+}
+/*========================================================
+						  HOME CSS
+========================================================*/
+ html,
+ body {
+ 	height: 100%;
+ }
+#home{
+	height: 100%;
+	overflow: hidden;
+}
+.home-cover{
+	height: 100%;
+	background-image: url('../img/bg-home.jpg');
+}
+.home-table{
+	display: table;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	background-color: rgba(0,0,0,.5);
+}
+.home-table-cell{
+	display: table-cell;
+	vertical-align: middle;
+}
+.home-cover h1{
+	color: #ff214f;
+	margin-bottom: 30px;
+}
+.home-cover h3{
+	font-size: 45px;
+	font-weight: 500;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+.home-cover p{
+	max-width: 620px;
+	margin: 35px auto 45px;
+	color: #fff;
+}
+/*========================================================
+					  SERVICES CSS
+========================================================*/
+
+.service-details{
+	text-align: center;
+	cursor:pointer;
+}
+.service-details i{
+	padding: 45px;
+	border: 1px solid #8b8e93;
+	border-radius:50%;
+	color: #ff214f;
+	transition: 1s ease;
+}
+.service-details h1{
+	margin: 30px 0 35px;
+}
+.service-details p{
+	max-width: 355px;
+}
+.service-details:hover i{
+	border-color: #ff214f;
+	color: #fff;
+	background-color: #ff214f;
+}
+/*========================================================
+					  About CSS
+========================================================*/
+#about{
+	background-color:#f5f5f6;
+}
+.about-disc{
+	margin: 30px 0;
+}
+.about-p1{
+	margin-bottom: 40px;
+}
+
+.about-content-box{
+	display: table;
+	height: 400px;
+	width: 100%;
+}
+.about-content-box-inner{
+	display: table-cell;
+	vertical-align: middle;
+}
+/*========================================================
+					  All Services CSS
+========================================================*/
+.services-wrapper{
+	border: 1px solid #8b8e93;
+	position: relative;
+	cursor: pointer;
+}
+.services-wrapper p{
+	max-width: 310px;
+	margin: 0px auto;
+}
+.services-wrapper h1{
+	margin: 100px 0 35px;
+}
+p.read-more{
+	margin: 30px auto 35px;
+}
+p.read-more a{
+	text-transform: uppercase;
+	color:#8b8e93;
+}
+p.read-more a:hover{
+	color: #ff214f;
+}
+.services-icon{
+	position: absolute;
+    left: 30%;
+    right: 27%;
+    top: -73px;
+    /* padding: 54px 75px; */
+    border: 1px solid #8b8e93;
+    border-radius: 50%;
+    background-color: #fff;
+}
+.services-icon i{
+	padding: 55px 37px;
+	transition: 1s ease;
+}
+#all-service [class*=col-]{
+	margin-top:100px;
+}
+.services-wrapper:hover .services-icon{
+	color: #fff;
+	background-color: #ff214f;
+}
+/*========================================================
+					  COUNTER  CSS
+========================================================*/
+#count{
+	background-color: #f5f5f6;
+}
+.counter-disc{
+	position: relative;
+	background-color: #fff;
+	padding: 60px 0 30px;
+}
+.counter-disc span{
+	font-size: 60px;
+	font-weight: 400;
+}
+.counter-disc p{
+	font-size: 20px;
+	padding-top: 20px;
+}
+.counter-icon{
+	position: absolute;
+    top: -35px;
+    left: 0;
+    right: 0;
+}
+.counter-icon i{
+	border: 1px solid #ff214f;
+    border-radius: 50%;
+    background-color: #ff214f;
+    padding: 20px 23px;
+	color: #fff;
+}
+/*========================================================
+					  SKILL-BAR  CSS
+========================================================*/
+.skil-disc p{
+	margin-top:35px;
+}
+.faq-panal h4{
+	font-size: 18px;
+	font-weight: 400;
+}
+.faq-panal h4:hover{
+	color: #ff214f;
+}
+.skil-disc{
+	margin-bottom: 45px;
+}
+
+.panel-group .panel {
+    margin-bottom: 10px;
+	border: 1px solid #8b8e93;
+	border-radius: 0;
+}
+.progress{
+	height: 15px;
+	margin: 5px 0 20px;
+}
+.skil-br span{
+	color: #ff214f;
+}
+.progress-bar{
+	background-color: #ff214f;
+}
+#processBar-span1{
+	margin-left: 341px;
+}
+#processBar-span2{
+	margin-left: 415px;
+}
+#processBar-span3{
+	margin-left: 356px;
+}
+#processBar-span4{
+	margin-left: 308px;
+}
+/*========================================================
+				  	PORTPOLIO  CSS
+========================================================*/
+#portfolio{
+	background-color: #f5f5f6;
+}
+.portfolio-image-wrapper img{
+    transition: transform 5s ease;
+}
+
+#portfolio [class*=col-]{
+	padding-left: 0;
+}
+.portfolio-image-wrapper {
+	position: relative;
+	margin-bottom: 15px;
+}
+.portfolio-image-wrapper a{
+	cursor: zoom-in;
+}
+.overlay {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: #8c2747;
+	overflow: hidden;
+	width: 100%;
+	height: 0;
+	transition: .5s ease;
+}
+.portfolio-image-wrapper:hover .overlay {
+	height: 100%;
+	opacity: .6;
+	border:13px solid rgba(18, 44, 68, 0.5);
+}
+.text i{
+	font-weight: 100;
+	font-size: 45px;
+	border: 2px solid #fff;
+	padding: 20px 25px;
+	border-radius: 50%;
+}
+.text h2{
+	margin-top: 25px;
+}
+.text {
+	color: white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	text-align: center;
+}
+/*========================================================
+				  	TEAN  CSS
+========================================================*/
+.team-member{
+	margin-right: 30px;
+}
+h2.member-name{
+	margin: 25px 0 20px;
+}
+/*========================================================
+				  	TESTIMONIAL  CSS
+========================================================*/
+#testimonial{
+	background-color:#f5f5f6;
+}
+p.testimonial-para{
+	max-width: 665px;
+	margin: 0 auto;
+	font-style: italic;
+}
+.testimonial-disc h1{
+	margin:50px 0 20px;
+}
+p.pos{
+	margin-bottom: 10px;
+}
+/*========================================================
+				  	PRICING  CSS
+========================================================*/
+.price-table{
+	border: 2px solid #eaeaea;
+	background-color: #f5f5f6;
+	padding: 30px 0;
+}
+.price-table ul{
+	list-style: none;
+	margin: 30px 0;
+}
+.price-table ul li{
+	margin-top: 30px ;
+}
+.price-table span,sub{
+	color: #ff214f;
+}
+.price-table span{
+	font-size: 50px;
+}
+.student{
+	background-color:rgba(255,33,79,.2);
+}
+/*========================================================
+				  	 LETEST-NEWS CSS
+========================================================*/
+#letest-news{
+	background-color: #f5f5f6;
+}
+.news-details{
+	padding-right: 15px;
+	background-color: #fff;
+	overflow: hidden;
+	cursor: pointer;
+}
+.news-details h2{
+	padding: 24px 0;
+	text-align: ;
+}
+.news-details img{
+	float: left;
+	margin-right: 15px;
+}
+.news-details span{
+	float: right;
+}
+p#news-p1{
+	color: #000;
+	margin-bottom: 20px;
+}
+.news-details a{
+	text-transform: uppercase;
+	font-size: 14px;
+	color: #8b8e93;
+}
+/*.news-details:hover .news-details a{
+	color: #ff214f;
+}*/
+.news-details a:hover{
+	color: #ff214f;
+}
+.mrt-30{
+	margin-top: 30px;
+}
+/*========================================================
+				  	SAY-HELLO  CSS
+========================================================*/
+p.say{
+	margin: 35px 0 45px 0;
+}
+.say-hello-icon {
+	float: left;
+	width:70px;
+	height: 70px;
+	border: 1px solid #8b8e93;
+	border-radius: 50%;
+}
+.say-hello-icon i{
+	padding: 18px 23px;
+	color: #ff214f;
+}
+.say-hello-disc{
+	padding: 15px 0 0 100px;
+}
+.say-hello-details{
+	overflow: hidden;
+}
+.mrb-30{
+	margin-bottom: 30px;
+}
+.control-form{
+	border: 1px solid transparent;
+	background-color: #f5f5f6;
+	border-radius: 0;
+	width: 48%;
+	font-size: 17px;
+    font-weight: 300;
+    padding: 8px 16px;
+    margin-bottom: 20px;
+    color: #8b8e93;
+}
+.mr-say{
+	margin-right: 3%;
+}
+.tarea{
+	width: 100%;
+	height: 190px;
+}
+.tr{
+	float: right;
+}
+/*========================================================
+				  	FOOTER  CSS
+========================================================*/
+#footer{
+	background-color: #1d2025;
+}
+p.footer-p1{
+	max-width: 520px;
+	margin: 50px auto 15px;
+}
+p.footer-p2{
+	margin: 15px auto 0px;
+}
+hr{
+	margin-top:70px;
+	color: #8b8e93;
+}
+.padd-footer{
+	padding: 100px 0 33px;
+	text-align: center;
+}
